@@ -46,9 +46,6 @@ The query parameters are:
 
 > [!IMPORTANT]
 > Ensure that `appId`, `entityId`, `entityWebUrl`, `subEntityWebUrl`, `entityLabel`, `subEntityLabel`, and `context` are all URI encoded.
->
-> [!NOTE]
-> `canvasUrl` is required but isn't currently used; it is reserved for future use.
 
 Examples:
 
