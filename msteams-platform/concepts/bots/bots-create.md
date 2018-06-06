@@ -2,21 +2,21 @@
 title: Create a bot
 description: Describes how to create bots in Microsoft Teams
 keywords: teams bots creation
-ms.date: 01/02/2018
+ms.date: 04/20/2018
 ---
 # Create a bot
 
 All bots created using the Microsoft Bot Framework are configured and ready to work in Microsoft Teams.
 
-[Get started on the Microsoft Teams platform with Node.js](~/get-started/get-started-nodejs) includes an app sample app with a bot, and has detailed steps for creating your first bot.
+A sample bot is included in the [Get Started](~/get-started/get-started) sample for Node.js and .NET, along with detailed steps for creating your first bot.
 
-See the [Bot Framework Documentation](https://docs.botframework.com/en-us/) for general information on bots.
+See the [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service) for general information on bots.
 
 ## Create a bot for Microsoft Teams
 
-*Teams App Studio* is a new tool that can help create your bot. It also contains a React control library and configurable samples for cards.  See [Getting started with Teams App Studio](~/get-started/get-started-app-studio). The steps that follow assume that you are hand configuring your bot and not using *Teams App Studio*.
+*Teams App Studio* is a new tool that can help create your bot. It also contains a React control library and configurable samples for cards. See [Getting started with Teams App Studio](~/get-started/get-started-app-studio). The steps that follow assume that you are hand configuring your bot and not using *Teams App Studio*.
 
-1. Create the bot using this link: https://dev.botframework.com/bots/new, being sure to add Microsoft Teams as a channel and that you re-use any Microsoft App ID you generated if you've already created your app package/manifest.
+1. Create the bot using this link: https://dev.botframework.com/bots/new. **Be sure to add Microsoft Teams as a channel from the featured channels list after creating your bot.** Feel free to re-use any Microsoft App ID you generated if you've already created your app package/manifest.
 
    ![Bot Framework registration page](~/assets/images/bots/bfregister.png)
 
